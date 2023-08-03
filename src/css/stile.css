@@ -1,0 +1,197 @@
+html, body{
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.ipt{
+    height: 40px;
+    width: 350px;
+    margin-top:-10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.bottone{
+    height: 40px;
+    background: rgba(20, 20, 20,0.8);
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+}
+
+.bottone:hover{
+    background: rgba(20, 20, 20,1);
+    
+}
+
+
+.search-wrapper input{
+    font-size: 1.2em;
+    padding: 0 0.5;
+    border: none;
+    border: 1px solid black;
+    font-family: 'Orbitron', sans-serif;
+
+}
+/*inzio regole css risultato*/
+.summaryTitle{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.risultato{
+   width: 90%; 
+   margin-right: auto;
+   margin-left: auto;
+   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);  
+   text-align: center;
+   box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+   list-style-type: disc;
+   border-radius: 4px;
+   margin-top: 1em;
+   margin-bottom: 5em;
+  } 
+
+ 
+
+.cityScore{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.uno{
+    margin-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+hr{
+    opacity: 0.5;
+    width: 80%;
+}
+
+.due{
+    margin-top: 25px;
+}
+
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    border-bottom: 1px groove rgba(20, 20, 20,0.1);
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.error{
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(241, 83, 83);
+}
+
+.notName{
+    font-size: 20px;
+}
+/*fine css risultato*/
+
+
+/*stile footer*/
+footer{
+    width: 100%;
+    padding: 5px 0;
+    background-color: black;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity: 0.8;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+  }
+  footer ul li {
+    padding: 0px 20px;
+  }
+
+  .bi {
+    color:white; 
+ }
+ .my-page{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-size: 11px;
+    border-radius: 4px;
+ }
+
+ /*mediaQ*/
+
+ @media screen and (max-width:500px){
+    .ipt{width: 300px;}
+    .container{margin-top: 20px;}
+    .uno{padding-left: 50px;}
+    .uno{padding-right: 50px;}
+    .my-image{width: 200px;}
+ }
+ @media screen and (max-width:390px){
+    h1{font-size: 20px;}
+    .subtitle{font-size: 10px;}
+    .ipt{width: 260px;}
+    .ipt{height: 30px;}
+    .bottone{height: 30px;}
+    .bottone{padding: 5px;}
+    .container{margin-top: 5px;}
+    .uno{padding-left: 30px;}
+    .uno{padding-right: 30px;}
+ }
+@media screen and (max-width:360px){
+    .img{display: none;}
+    .uno{padding-left: 10px;}
+    .uno{padding-right: 10px;}
+} 
+@media screen and (max-width:320px) {
+    .my-image{width: 50px;}
+   
+}
